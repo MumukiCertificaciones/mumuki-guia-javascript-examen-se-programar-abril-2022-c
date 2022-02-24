@@ -1,0 +1,1 @@
+Algo similiar al anterior pero que tengan que ir plantando/sembrando un camino de flores o tomates o lo QUE QUIERAS, lo interesante es que se puede “randomizar” el número de bolitas que queremos “sembrar” ejemplo:  cell 0 0 $COLOR $NUMERO_BOLITAS. - C

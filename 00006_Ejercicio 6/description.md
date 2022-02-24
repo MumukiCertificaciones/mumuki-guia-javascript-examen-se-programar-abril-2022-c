@@ -1,0 +1,1 @@
+* elementos químicos. Por ejemplo: El elemento XXX se representa con YYY y fue descubierto por ZZZ. - C

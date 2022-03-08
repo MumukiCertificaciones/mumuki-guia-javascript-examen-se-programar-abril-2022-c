@@ -11,7 +11,7 @@ TEMPERATURA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value:
   - 19
   - 25
-TEMPERATURA_MENOR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+TEMP_MENOR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   type: expression
   value:
   - TEMPERATURA - 2

@@ -7,7 +7,7 @@ true
 ム $FUNCION($TEMPERATURA, true)
 false //porque está lloviendo
 
-ム $FUNCION($TEMPERATURA_MENOR, false)
+ム $FUNCION($TEMP_MENOR, false)
 false //porque la temperatura es menor a $TEMPERATURA
 ```
 

@@ -19,8 +19,6 @@ let kripton = {
 
 ```javascript
 ム $FUNCION(radio)
-"$STRING_COMPOSICIÓN Radio "
+"$STRING_COMPOSICIÓN Radio $STRING_ANIO 1898 por Madame Curie"
 
-ム $FUNCION(casaDominguez)
-"La familia Dominguez $STRING_COMPOSICIÓN 4 integrantes que $STRING_DIRECCION en Belgrano 350"
 ```

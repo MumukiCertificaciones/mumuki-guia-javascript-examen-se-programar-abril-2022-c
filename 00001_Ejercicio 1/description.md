@@ -1,5 +1,3 @@
-Algo similiar al anterior pero que tengan que ir plantando/sembrando un camino de flores o tomates o lo QUE QUIERAS, lo interesante es que se puede “randomizar” el número de bolitas que queremos “sembrar” ejemplo:  cell 0 0 $COLOR $NUMERO_BOLITAS. - C
-
 Antes de empezar el examen, nos pidieron ayuda para sembrar unos tomates.
 Las semillas las representaremos con bolitas de color `Rojo` y
 para que den fruto, por cada celda tenemos que poner $CANTIDAD_BOLITAS semillas, y dejar una hilera de por medio. El tablero debería quedar así:

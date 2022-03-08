@@ -1,0 +1,33 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - estadoDeSerie
+  - situacionDeSerie
+  - estadoSerie
+  - situacionSerie
+ANIO_CORTE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 2010
+  - 2018
+SERIE_TERMINADA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: expression
+  value:
+  - ANIO_CORTE - 3
+STRING_FIN: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Finalizada
+  - Terminada
+  - Concluida
+  - Finalizó
+  - Terminó
+  - Concluyó
+STRING_NO_FIN: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Esperando temporada
+  - Continuará
+  - Pendiente
+  - Abierta

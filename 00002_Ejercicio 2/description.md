@@ -10,6 +10,6 @@ Un local de medias nos pidió un procedimiento que se encargue de armar un combo
   head 0 0
 </gs-board>
 
-Es decir, una bolita de color `Azul`, al `Este` una de color `Rojo`, al `Este` una de color `Nrgro` y al `Este` una de color `Negro`.
+Es decir, una bolita de color `Azul`, al `Este` una de color `Rojo`, al `Este` una de color `Negro` y al `Este` una de color `Negro`.
 
 > Definí el procedimiento `$PROCEDIMIENTO` que recibe cuatro colores como argumento y arme los combos de medias, comenzando en el extremo Sur Oeste. No importa dónde termina el cabezal.

@@ -1,0 +1,8 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+PROCEDIMIENTO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - ArmarCombo
+  - ArmarComboMedias
+  - PonerMedias
+  - AgregarMedias

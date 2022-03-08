@@ -1,5 +1,5 @@
 --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-CANTIDAD_SEMILLAS: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+CANTIDAD_BOLITAS: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   type: one_of
   value:
   - '2'

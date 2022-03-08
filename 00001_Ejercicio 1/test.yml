@@ -8,11 +8,5 @@ examples:
     GBB/1.0
     size 5 3
     cell 0 0 Rojo $CANTIDAD_BOLITAS
-    cell 0 1 Rojo $CANTIDAD_BOLITAS 
     cell 0 2 Rojo $CANTIDAD_BOLITAS
-    cell 2 0 Rojo $CANTIDAD_BOLITAS
-    cell 2 1 Rojo $CANTIDAD_BOLITAS
-    cell 2 2 Rojo $CANTIDAD_BOLITAS
-    cell 4 0 Rojo $CANTIDAD_BOLITAS
-    cell 4 1 Rojo $CANTIDAD_BOLITAS
-    cell 4 2 Rojo $CANTIDAD_BOLITAS
+    cell 0 4 Rojo $CANTIDAD_BOLITAS 

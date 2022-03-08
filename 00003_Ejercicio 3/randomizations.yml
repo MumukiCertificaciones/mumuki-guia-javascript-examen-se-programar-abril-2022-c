@@ -1,0 +1,13 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - esClimaAgradable
+  - esDiaAgradable
+  - esTemperaturaAgradable
+  - esDiaLindo
+TEMPERATURA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 19
+  - 25

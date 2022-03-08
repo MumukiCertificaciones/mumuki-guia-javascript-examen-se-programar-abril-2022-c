@@ -2,11 +2,11 @@ check_head_position: false
 examples:
  - initial_board: |
     GBB/1.0
-    size 5 3
+    size 1 5
     head 0 0
    final_board: |
     GBB/1.0
-    size 5 3
+    size 1 5
     cell 0 0 Rojo $CANTIDAD_BOLITAS
     cell 0 2 Rojo $CANTIDAD_BOLITAS
     cell 0 4 Rojo $CANTIDAD_BOLITAS 

@@ -3,9 +3,9 @@ Por suerte podemos programarlo. Queremos definir una función que reciba una lis
 
 ``` JavaScript
 ム $FUNCION([1,3,20,2])
-26000 // porque 1 + 3 + 20 + 2 -> 26 * 1000 -> 26000
+26000 // porque 1 + 3 + 20 + 2 = 26 y 26 * 1000 = 26000
 
 ム $FUNCION([1,0,1,2)
-4000 // porque 1 + 0 + 1 + 2 -> 4 * 1000 -> 4000
+4000 // porque 1 + 0 + 1 + 2 = 4 * y 4 * 1000 = 4000
 ```
 Definí la función `$FUNCION`.

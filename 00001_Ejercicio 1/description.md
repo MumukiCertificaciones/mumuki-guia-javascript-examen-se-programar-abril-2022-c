@@ -15,7 +15,6 @@ para que den fruto, por cada celda tenemos que poner $CANTIDAD_BOLITAS semillas,
         cell 4 0 Rojo $CANTIDAD_BOLITAS
         cell 4 1 Rojo $CANTIDAD_BOLITAS
         cell 4 2 Rojo $CANTIDAD_BOLITAS
-        head 0 2
   </gs-board>
 </div>
 

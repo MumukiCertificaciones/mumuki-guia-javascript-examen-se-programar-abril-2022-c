@@ -1,0 +1,7 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+CANTIDAD_SEMILLAS: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - '2'
+  - '3'
+  - '4'

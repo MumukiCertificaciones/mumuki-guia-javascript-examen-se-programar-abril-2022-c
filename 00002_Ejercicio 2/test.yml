@@ -1,1 +1,54 @@
-TODO
+check_head_position: false
+
+subject: $PROCEDIMIENTO
+
+examples:
+ - arguments:
+   - Negro
+   - Rojo
+   - Verde
+   - Negro
+   initial_board: |
+     GBB/1.0
+     size 4 1
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 4 1
+     cell 0 0 Negro 1
+     cell 1 0 Rojo 1
+     cell 2 0 Verde 1
+     cell 3 0 Negro 1
+ - arguments:
+   - Rojo
+   - Rojo
+   - Negro
+   - Negro
+   initial_board: |
+     GBB/1.0
+     size 4 1
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 4 1
+     cell 0 0 Rojo 1
+     cell 1 0 Rojo 1
+     cell 2 0 Negro 1
+     cell 3 0 Negro 1
+     
+ - arguments:
+   - Verde
+   - Verde
+   - Rojo
+   - Rojo
+   initial_board: |
+     GBB/1.0
+     size 4 1
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 4 1
+     cell 0 0 Verde 1
+     cell 1 0 Verde 1
+     cell 2 0 Rojo 1
+     cell 3 0 Rojo 1

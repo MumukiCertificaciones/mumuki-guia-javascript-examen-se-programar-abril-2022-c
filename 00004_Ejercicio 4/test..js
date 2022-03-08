@@ -3,7 +3,7 @@ describe("", function() {
     assert.equal($FUNCION(2020), "$STRING_NO_FIN");
   });
   
-  it("Si hacemos $FUNCION(Number($ANIO_CORTE - 1)) nos retorna $STRING_FIN", function() {
+  it("Si hacemos $FUNCION"+(Number($ANIO_CORTE - 1))+" nos retorna $STRING_FIN", function() {
     assert.equal($FUNCION($ANIO_CORTE - 1), "$STRING_FIN");
   });
 })

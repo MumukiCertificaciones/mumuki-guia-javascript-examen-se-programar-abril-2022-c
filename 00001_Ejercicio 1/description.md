@@ -18,4 +18,5 @@ para que den fruto, por cada celda tenemos que poner $CANTIDAD_BOLITAS semillas,
   </gs-board>
 </div>
 
+
 > Creá un programa para sembrar las semillas de tomate.

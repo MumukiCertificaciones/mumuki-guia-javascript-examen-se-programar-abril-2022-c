@@ -1,0 +1,1 @@
+Para pasar de kilómetros a metros, podes multiplicar el valor por 1000 :wink:

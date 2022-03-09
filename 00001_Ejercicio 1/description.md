@@ -1,6 +1,4 @@
-Antes de empezar el examen, nos pidieron ayuda para sembrar unos tomates.
-Las semillas las representaremos con bolitas de color `Rojo` y
-para que den fruto, por cada celda tenemos que poner $CANTIDAD_BOLITAS semillas, dejando un espacio entre cada celda. El tablero debería quedar así:
+Antes de empezar el examen, nos pidieron ayuda para sembrar unos tomates :tomato:. Las semillas las representaremos con bolitas de color `Rojo` y para que den fruto, por cada celda tenemos que poner $CANTIDAD_BOLITAS semillas, dejando un espacio entre cada celda. El tablero debería quedar así:
 
 <div style="padding:20px;"> 
   <gs-board>

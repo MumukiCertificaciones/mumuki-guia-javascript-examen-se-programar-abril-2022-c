@@ -14,5 +14,4 @@ false //porque está lloviendo
 false //porque la temperatura es menor a $TEMPERATURA
 ```
 
-
 > Definí la función `$FUNCION` que recibe como argumentos una temperatura y un booleano que indica si esta lloviendo.

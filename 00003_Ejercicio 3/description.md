@@ -1,6 +1,6 @@
-Dejemos atrás Gobstones y pasemos a JavaScript.
+Dejemos atrás Gobstones y pasemos a JavaScript. :raised_hands:
 
-Ro está programando una aplicación con distintas funcionalidades del clima. Y en esta oportunidad nos pidió ayuda para definir una función que nos indique si el clima está agradable, la cuál llamaremos `$FUNCION`. 
+Ro está programando una aplicación con distintas funcionalidades del clima :partly_sunny:. Y en esta oportunidad nos pidió ayuda para definir una función que nos indique si el clima está agradable, la cuál llamaremos `$FUNCION`. 
 Para que esto suceda la temperatura tiene que ser `$TEMPERATURA` y no tiene que estar lloviendo. Por ejemplo:
 
 ``` javaScript

@@ -1,5 +1,4 @@
-A veces queremos llevar registro de lo que caminamos y hacerlo cada vez que queremos calcularlo se vuelve tedioso.
-Por suerte podemos programarlo. Queremos definir una función que reciba una lista con la cantidad de kilómetros recorridos por una persona y nos retorne el total en metros. Por ejemplo:
+A veces queremos llevar registro de lo que caminamos y hacerlo cada vez que queremos calcularlo se vuelve tedioso :person_walking:. Por suerte podemos programarlo. Queremos definir una función que reciba una lista con la cantidad de kilómetros recorridos por una persona y nos retorne el total en metros. Por ejemplo:
 
 ``` JavaScript
 ム $FUNCION([1,3,20,2])

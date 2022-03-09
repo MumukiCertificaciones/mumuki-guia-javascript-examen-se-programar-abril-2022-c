@@ -1,4 +1,4 @@
-Un local de medias nos pidió un procedimiento que se encargue de armar un combo de medias de distintos colores . Actualmente venden medias de color `Rojo`, `Verde`, `Negro` y `Azul`. Los combos tienen cuatro medias que pueden especificarse al hacer el pedido. Por ejemplo `$PROCEDIMIENTO(Azul, Rojo, Negro, Negro)` nos dará como resultado el siguiente tablero :
+Un emprendimiento que vende medias :socks: nos pidió un procedimiento que se encargue de armar un combo de medias de distintos colores . Actualmente venden medias de color `Rojo`, `Verde`, `Negro` y `Azul`. Los combos tienen cuatro medias que pueden especificarse al hacer el pedido. Por ejemplo `$PROCEDIMIENTO(Azul, Rojo, Negro, Negro)` nos dará como resultado el siguiente tablero :
 
 <gs-board>
   GBB/1.0

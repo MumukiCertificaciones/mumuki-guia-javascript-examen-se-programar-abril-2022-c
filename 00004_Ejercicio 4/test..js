@@ -13,6 +13,6 @@ describe("", function() {
   });
   
   it("Si hacemos $FUNCION("+ (Number($ANIO_CORTE)+") nos retorna $STRING_FIN", function() {
-    assert.equal(transform($FUNCION($ANIO_CORTE), transform("$STRING_FIN"));
+    assert.equal(transform($FUNCION($ANIO_CORTE)), transform("$STRING_FIN"));
   });
 })

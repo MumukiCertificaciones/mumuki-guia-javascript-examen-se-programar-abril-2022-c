@@ -9,7 +9,7 @@ FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
 STRING_COMPOSICIÓN: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   type: one_of
   value:
-  - El átomo
+  - El átomo de
   - El elemento
 STRING_ANIO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   type: one_of

@@ -12,13 +12,11 @@ let kripton = {
   anioDeDescubrimiento: 1898,
   fueDescubiertoPor: "William Ramsay"
 }
-
 ```
 
 > Definí la función `$FUNCION` que permita obtener un resumen de la información registrada. Por ejemplo:
-
+>
 ```javascript
 ム $FUNCION(radio)
 "$STRING_COMPOSICIÓN Radio $STRING_ANIO 1898 por Madame Curie"
-
 ```

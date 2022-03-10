@@ -3,6 +3,7 @@ FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   type: one_of
   value:
   - calcularMetros
-  - calculoMetros
+  - calculoDeMetros
   - metrosRecorridos
   - calculoMetrosRecorridos
+  - calcularMetrosRecorridos

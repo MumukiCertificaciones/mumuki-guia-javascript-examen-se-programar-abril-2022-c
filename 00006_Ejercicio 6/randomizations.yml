@@ -15,4 +15,4 @@ STRING_ANIO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   type: one_of
   value:
   - fue descubierto en el año
-  - se descrubrió en el año
+  - se descubrió en el año

@@ -11,4 +11,8 @@ describe("", function() {
   it("Si hacemos $FUNCION("+(Number($ANIO_CORTE - 1))+") nos retorna $STRING_FIN", function() {
     assert.equal(transform($FUNCION($ANIO_CORTE - 1)), transform( "$STRING_FIN"));
   });
+  
+  it("Si hacemos $FUNCION("+ (Number($ANIO_CORTE)+") nos retorna $STRING_FIN", function() {
+    assert.equal(transform($FUNCION($ANIO_CORTE)), transform( "$STRING_FIN"));
+  });
 })

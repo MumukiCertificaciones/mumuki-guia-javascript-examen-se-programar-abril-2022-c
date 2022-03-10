@@ -5,14 +5,14 @@ function transform(texto) {
 
 describe("", function() {
   it("Si hacemos $FUNCION(2020) nos retorna $STRING_NO_FIN", function() {
-    assert.equal(transform($FUNCION(2020)),transform( "$STRING_NO_FIN"));
+    assert.equal(transform($FUNCION(2020)),transform("$STRING_NO_FIN"));
   });
   
   it("Si hacemos $FUNCION("+(Number($ANIO_CORTE - 1))+") nos retorna $STRING_FIN", function() {
-    assert.equal(transform($FUNCION($ANIO_CORTE - 1)), transform( "$STRING_FIN"));
+    assert.equal(transform($FUNCION($ANIO_CORTE - 1)), transform("$STRING_FIN"));
   });
   
   it("Si hacemos $FUNCION("+ (Number($ANIO_CORTE)+") nos retorna $STRING_FIN", function() {
-    assert.equal(transform($FUNCION($ANIO_CORTE)), transform( "$STRING_FIN"));
+    assert.equal(transform($FUNCION($ANIO_CORTE)), transform("$STRING_FIN"));
   });
 })

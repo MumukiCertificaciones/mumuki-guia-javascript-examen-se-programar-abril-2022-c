@@ -1,4 +1,4 @@
-En un curso de quimica :microscope:, nos pidieron una función que se encargue de hacer un resumen de los elementos de la tabla periodica. Para ello contamos con sus registros. Por ejemplo:
+En un curso de quimica :microscope:, nos pidieron una función que se encargue de hacer un resumen de la información de los elementos de la tabla periodica. Para ello contamos con registros como estos:
 
 ```javascript
 let radio = {

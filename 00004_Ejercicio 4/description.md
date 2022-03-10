@@ -3,13 +3,12 @@ Para ello vamos a definir la función `$FUNCION` que recibe un año como argumen
 
 Por ejemplo:
 
-``` JavaScript
+``` javascript
 ム $FUNCION($SERIE_TERMINADA)
 "$STRING_FIN"
 
 ム $FUNCION(2021)
 "$STRING_NO_FIN"
-
 ```
 
 > Definí la función `$FUNCION` con el argumento correspondiente.

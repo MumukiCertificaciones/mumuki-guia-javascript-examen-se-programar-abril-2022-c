@@ -1,6 +1,6 @@
 A veces queremos llevar registro de lo que caminamos y hacerlo cada vez que queremos calcularlo se vuelve tedioso :person_walking:. Por suerte podemos programarlo. Queremos definir una función que reciba una lista con la cantidad de kilómetros recorridos por una persona y nos retorne el total en metros. Por ejemplo:
 
-``` JavaScript
+``` javascript
 ム $FUNCION([1,3,20,2])
 26000 // porque 1 + 3 + 20 + 2 = 26 y 26 * 1000 = 26000
 

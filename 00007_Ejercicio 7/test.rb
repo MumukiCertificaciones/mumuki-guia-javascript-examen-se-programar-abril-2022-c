@@ -14,9 +14,14 @@ it "Si el planeta $OBJETO sufre una lluvia de 5 meteoros su cantidad de crátere
   expect($OBJETO.cantidad_de_crateres).to be 25
 end
 
-it "Si $OBJETO tiene más de $COTA_SUPERIOR_CRATERES cráteres entonces tiene $METODO_MUCHOS" do
-  $OBJETO.cantidad_de_crateres = ($COTA_SUPERIOR_CRATERES + 1)
+it "Si $OBJETO tiene $COTA_SUPERIOR_CRATERES cráteres entonces no tiene $METODO_MUCHOS" do
+  $OBJETO.cantidad_de_crateres = $COTA_SUPERIOR_CRATERES 
   expect($OBJETO.$METODO_MUCHOS).to be true
+end
+
+it "Si $OBJETO tiene más de $COTA_SUPERIOR_CRATERES cráteres entonces tiene $METODO_MUCHOS" do
+  $OBJETO.cantidad_de_crateres = $COTA_SUPERIOR_CRATERES + 1
+  expect($OBJETO.$METODO_MUCHOS).to be false
 end
 
 it "Si $OBJETO tiene menos de $COTA_SUPERIOR_CRATERES cráteres entonces no tiene $METODO_MUCHOS" do

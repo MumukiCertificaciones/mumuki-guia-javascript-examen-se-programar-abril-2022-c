@@ -4,10 +4,10 @@ expectations:
   binding: "*"
   inspection: Declares:$OBJETO
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: OBJETO
+  binding: "$OBJETO"
   inspection: DeclaresMethod:$METODO_LLUVIA
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: OBJETO
+  binding: "$OBJETO"
   inspection: DeclaresMethod:$METODO_MUCHOS
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "$METODO_MUCHOS"

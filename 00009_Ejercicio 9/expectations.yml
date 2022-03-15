@@ -1,0 +1,20 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Persona
+  inspection: DeclaresMethod:$METODO_PERSONA
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$CLASE_1"
+  inspection: DeclaresMethod:$METODO_EQUIPAJE
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$CLASE_2"
+  inspection: DeclaresMethod:$METODO_EQUIPAJE
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Bolso
+  inspection: DeclaresMethod:$METODO_EQUIPAJE
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$METODO_PERSONA"
+  inspection: Not:Assigns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$METODO_EQUIPAJE"
+  inspection: Not:Assigns

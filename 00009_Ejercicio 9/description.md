@@ -1,4 +1,4 @@
-A la hora de viajar, las personas tienen que elegir dónde llevar sus pertenencias sabiendo que depende de su elección cuánto peso podrá llevar:
+A la hora de viajar :railway_car:, las personas tienen que elegir dónde llevar sus pertenencias sabiendo que depende de su elección cuánto peso podrá llevar:
 
 * las `$CLASE_1`s admiten $PESO_POR_BOLSILLO kilos por bolsillo;
 * las `$CLASE_2`s pueden llevar $PESO_POR_VALIJA kilos;

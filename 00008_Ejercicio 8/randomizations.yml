@@ -1,0 +1,22 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+PERSONAJE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Shevek
+  - Hari
+  - Takver
+  - Salvor
+PREDEFINIDO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - lista_para_cosechar?
+  - para_cosechar?
+  - se_puede_cosechar?
+  - cosechable?
+METODO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - cuales_para_cosechar
+  - listas_para_cosechar
+  - listas_para_la_cosecha
+  - cosechables

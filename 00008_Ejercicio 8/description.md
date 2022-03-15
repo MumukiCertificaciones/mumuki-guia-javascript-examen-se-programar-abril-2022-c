@@ -1,1 +1,3 @@
-* Huerta y saber que puede sembrar en una temporada. - C
+$PERSONAJE tiene una huerta con distintas frutas y verduras, y necesita saber cuáles de ellas están listas para cosechar. Teniendo en cuenta que `$OBJETO` tiene una lista con los distintos alimentos y que cada uno sabe responder al mensaje `$PREDEFINIDO`...
+
+> Definí en Ruby el método `$METODO` que responda cuáles frutas y verduras de `$OBJETO` están listas para ser cosechadas.

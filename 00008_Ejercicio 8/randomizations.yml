@@ -20,3 +20,8 @@ METODO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   - listas_para_cosechar
   - listas_para_la_cosecha
   - cosechables
+OBJETO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: expression
+  value:
+  - '{"Shevek": "HuertaDeShevek", "Hari": "HuertaDeHari", "Takver": "HuertaDeTakver",
+    "Salvor": "HuertaDeSalvor"}[PERSONAJE]'

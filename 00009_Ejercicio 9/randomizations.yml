@@ -22,13 +22,15 @@ PESO_POR_VALIJA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
 METODO_PERSONA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   type: one_of
   value:
-  - peso_equipaje
-  - peso_de_equipaje
-  - peso_de_carga
+  - cuanto_puede_llevar
+  - cuanto_puede_cargar
+  - cuanto_puede_transportar
 METODO_EQUIPAJE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   type: one_of
   value:
-  - peso
+  - peso_limite
   - peso_maximo
-  - peso_total
-  - peso_carga
+  - peso_tope
+  - tope_de_peso
+  - maximo_peso
+  - limite_de_peso

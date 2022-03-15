@@ -1,0 +1,34 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+CLASE_1: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Mochila
+  - Carteta
+CLASE_2: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Valija
+  - Maleta
+PESO_POR_BOLSILLO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 1
+  - 3
+PESO_POR_VALIJA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 10
+  - 25
+METODO_PERSONA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - peso_equipaje
+  - peso_de_equipaje
+  - peso_de_carga
+METODO_EQUIPAJE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - peso
+  - peso_maximo
+  - peso_total
+  - peso_carga

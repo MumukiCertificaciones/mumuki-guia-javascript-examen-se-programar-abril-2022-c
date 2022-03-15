@@ -16,12 +16,12 @@ end
 
 it "Si $OBJETO tiene $COTA_SUPERIOR_CRATERES cráteres entonces no tiene $METODO_MUCHOS" do
   $OBJETO.cantidad_de_crateres = $COTA_SUPERIOR_CRATERES 
-  expect($OBJETO.$METODO_MUCHOS).to be true
+  expect($OBJETO.$METODO_MUCHOS).to be false
 end
 
 it "Si $OBJETO tiene más de $COTA_SUPERIOR_CRATERES cráteres entonces tiene $METODO_MUCHOS" do
   $OBJETO.cantidad_de_crateres = $COTA_SUPERIOR_CRATERES + 1
-  expect($OBJETO.$METODO_MUCHOS).to be false
+  expect($OBJETO.$METODO_MUCHOS).to be true
 end
 
 it "Si $OBJETO tiene menos de $COTA_SUPERIOR_CRATERES cráteres entonces no tiene $METODO_MUCHOS" do

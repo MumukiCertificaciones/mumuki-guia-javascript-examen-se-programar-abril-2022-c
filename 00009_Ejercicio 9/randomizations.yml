@@ -3,7 +3,7 @@ CLASE_1: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   type: one_of
   value:
   - Mochila
-  - Carteta
+  - Cartera
 CLASE_2: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   type: one_of
   value:

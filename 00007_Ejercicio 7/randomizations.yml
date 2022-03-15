@@ -1,0 +1,36 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+CANTIDAD_DE_CRATERES: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 0
+  - 150
+COTA_SUPERIOR_CRATERES: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 160
+  - 200
+OBJETO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Numir
+  - Melmac
+  - Kripton
+  - PizzaPlaneta
+  - Terminus
+  - Urras
+  - Anarres
+  - Trantor
+METODO_LLUVIA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - sufrir_lluvia_meteoros!
+  - sufrir_lluvia_de_meteoros!
+  - sufrir_lluvia_meteoritos!
+  - sufrir_lluvia_de_meteoritos!
+METODO_MUCHOS: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - muchos_crateres?
+  - demasiados_crateres?
+  - exceso_de_crateres?
+  - excesivos_crateres?

@@ -1,5 +1,3 @@
-describe 'Descripción del grupo' do
-  it 'Descripción del ejemplo' do
-    expect(true).to eq true
-  end
+it "Las frutas y verduras listas para cosechar de $OBJETO son [Tomate, Berenjena, Frutilla, Batata]"  do
+  expect($OBJETO.$METODO).to eq [Tomate, Berenjena, Frutilla, Batata]
 end

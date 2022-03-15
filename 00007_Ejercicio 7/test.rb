@@ -1,30 +1,25 @@
-it "$OBJETO inicialmente no tiene cuadros" do
-  expect($OBJETO.$ATRIBUTO_CUADROS).to be 0
+it "$OBJETO inicialmente tiene $CANTIDAD_DE_CRATERES cráteres" do
+  expect($OBJETO.cantidad_de_crateres).to be $CANTIDAD_DE_CRATERES
 end
 
-it "$OBJETO aumenta en uno su cantidad de cuadros cuando termina un cuadro" do
-  $OBJETO.$ATRIBUTO_CUADROS = 5
-  $OBJETO.$METODO_TERMINAR_CUADRO
-  expect($OBJETO.$ATRIBUTO_CUADROS).to be 6
+it "Si el planeta $OBJETO sufre una lluvia de 20 meteoros su cantidad de cráteres aumenta en 20" do
+  $OBJETO.cantidad_de_crateres = 0
+  $OBJETO.$METODO_LLUVIA(20)
+  expect($OBJETO.cantidad_de_crateres).to be 20
 end
 
-it "$OBJETO aumenta en dos su cantidad de cuadros si termina dos cuadros" do
-  $OBJETO.$ATRIBUTO_CUADROS = 0
-  $OBJETO.$METODO_TERMINAR_CUADRO
-  $OBJETO.$METODO_TERMINAR_CUADRO
-  expect($OBJETO.$ATRIBUTO_CUADROS).to be 2
+it "Si el planeta $OBJETO sufre una lluvia de 5 meteoros su cantidad de cráteres aumenta en 5" do
+  $OBJETO.cantidad_de_crateres = 20
+  $OBJETO.$METODO_LLUVIA(5)
+  expect($OBJETO.cantidad_de_crateres).to be 25
 end
 
-it "Si $OBJETO vende un cuadro se resta uno a su $ATRIBUTO_CUADROS" do
-  $OBJETO.$ATRIBUTO_CUADROS = 10
-  $OBJETO.$METODO_VENDER_CUADRO
-  expect($OBJETO.$ATRIBUTO_CUADROS).to be 9
+it "Si $OBJETO tiene más de $COTA_SUPERIOR_CRATERES cráteres entonces tiene $METODO_MUCHOS" do
+  $OBJETO.cantidad_de_crateres = 300
+  expect($OBJETO.$METODO_MUCHOS).to be true
 end
 
-it "Si $OBJETO vende tres cuadros se resta tres a su $ATRIBUTO_CUADROS" do
-  $OBJETO.$ATRIBUTO_CUADROS = 10
-  $OBJETO.$METODO_VENDER_CUADRO
-  $OBJETO.$METODO_VENDER_CUADRO
-  $OBJETO.$METODO_VENDER_CUADRO
-  expect($OBJETO.$ATRIBUTO_CUADROS).to be 7
+it "Si $OBJETO tiene " + (Number($COTA_SUPERIOR_CRATERES) - 10) + " cráteres entonces no tiene $METODO_MUCHOS" do
+  $OBJETO.cantidad_de_crateres = $COTA_SUPERIOR_CRATERES -10
+  expect($OBJETO.$METODO_MUCHOS).to be false
 end

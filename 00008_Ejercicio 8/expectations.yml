@@ -5,7 +5,7 @@ expectations:
   inspection: DeclaresMethod:$METODO
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "$METODO"
-  inspection: Uses:filter
+  inspection: Uses:select
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "$METODO"
   inspection: Not:Uses:map

@@ -2,7 +2,7 @@ Acércandonos al final del examen vamos a pasar al mundo de los objetos. :star_s
 
 `$OBJETO` es un planeta del cuál sabemos que:
 
-* Tiene una cantidad de cráteres que inicialmente es `$CANTIDAD_DE_CRATERES`;
+* tiene una cantidad de cráteres que inicialmente es `$CANTIDAD_DE_CRATERES`;
 * puede sufrir una lluvia de meteoros, cuando esto sucede su cantidad de cráteres aumenta tanto como la cantidad de meteoros que caigan;
 * diremos que tiene demasiados cráteres si tiene más de `$COTA_SUPERIOR_CRATERES`. :stars:
 

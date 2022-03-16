@@ -1,4 +1,4 @@
-Dejemos atrás a JavaScript y adentrémonos en el mundo de los objetos. :star_struck:
+Acércandonos al final del examen vamos a pasar al mundo de los objetos. :star_struck:
 
 `$OBJETO` es un planeta del cuál sabemos que:
 

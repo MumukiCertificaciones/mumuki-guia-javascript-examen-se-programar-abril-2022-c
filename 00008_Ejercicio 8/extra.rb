@@ -40,7 +40,7 @@ module Papa
   end
 end
 
-module Palta
+module Batata
   def self.$PREDEFINIDO
     true
   end

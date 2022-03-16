@@ -19,7 +19,7 @@ let kripton = {
 ```javascript
 ム $FUNCION(radio)
 "$STRING_COMPOSICIÓN Radio $STRING_ANIO 1898 por Madame Curie"
-
+>
 ム $FUNCION(kripton)
 "$STRING_COMPOSICIÓN Kriptón $STRING_ANIO 1898 por William Ramsay"
 ```

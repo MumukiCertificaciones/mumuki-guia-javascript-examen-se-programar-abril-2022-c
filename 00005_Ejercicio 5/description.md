@@ -1,4 +1,4 @@
-A veces queremos llevar registro de la distancia recorrida y calcularla puede ser una tarea tediosa :confused: ¡Pero la programación puede ayudarnos! :raised_hands:
+A veces queremos llevar registro de la distancia recorrida y calcularla puede ser una tarea tediosa. :confused: ¡Pero la programación puede ayudarnos! :raised_hands:
 
 Para eso vamos a definir una función que reciba una lista con la cantidad de kilómetros recorridos por una persona y nos retorne el total en metros. Por ejemplo:
 

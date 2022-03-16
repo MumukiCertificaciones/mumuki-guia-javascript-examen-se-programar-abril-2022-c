@@ -1,0 +1,1 @@
+Una persona puede llevar tanto peso como su equipaje lo permita. :wink:
